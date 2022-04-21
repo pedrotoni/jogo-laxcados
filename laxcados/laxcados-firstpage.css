@@ -1,0 +1,79 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background: url("https://thumbs.dreamstime.com/b/hot-pink-background-old-vintage-grunge-bubble-texture-bright-vibrant-color-design-155865831.jpg");
+}
+
+h1{
+    width:600px;
+    border-style:dotted;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background:royalblue;
+    padding:15px;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.first-text{
+    background:royalblue;
+    width:500px;
+    text-align:center;
+    padding:15px;
+    border-style:dotted;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    height:170px;
+}
+
+.second-text{
+    background:royalblue;
+    width:1000px;
+    border-style:dotted;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:0.9em;
+}
+
+.btn-sim,.btn-nao{
+    background:lawngreen;
+    width:100px;
+    height:25px;
+    font-size:1.1em;
+    border-style:groove;
+    border-radius:10px;
+    transition:1s all;
+}
+
+.start{
+    background:lawngreen;
+    width:300px;
+    height:25px;
+    font-size:1.1em;
+    border-style:groove;
+    border-radius:10px;
+    cursor:pointer;
+    transition:1s all;
+
+}
+
+.btn-sim:hover,.btn-nao:hover,.start:hover{
+    color:yellow;
+    background:crimson;
+    transform: scale(1.2)
+}
+
+.first-text-question1:hover, .first-text-question2:hover,
+.first-text-question3:hover, .first-text-question4:hover,
+.L:hover,.A:hover,.X:hover,.C:hover,.A:hover,.D:hover,.O:hover,.S:hover,
+.second-text-question1:hover,.second-text-question2:hover,.ou:hover{
+    color:lawngreen;
+}
+
+

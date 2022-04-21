@@ -1,0 +1,48 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background: black;
+    color:lawngreen;
+}
+
+.ganhou{
+    font-size:2em;
+    text-align:center;
+
+}
+
+.ganhou:hover{
+    color:crimson;
+}
+
+.gameover-page-feliz{
+    margin-top:200px;
+}
+
+.btn-ganhou{
+    background:lawngreen;
+    width:300px;
+    font-size:1.1em;
+    text-align:center;
+    border-radius:10px;
+    transition:0.5s all;
+}
+
+img{
+    width:250px;
+    height:250px;
+}
+
+.botao-e-imagem-feliz{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    height:50vh;
+    align-items:center;
+}
+
+.btn-ganhou:hover{
+    background:crimson;
+    color:yellow;
+    transform:scale(1.05);
+    cursor:pointer;
+}
